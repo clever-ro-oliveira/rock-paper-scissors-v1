@@ -1,6 +1,6 @@
 <?php
 
-require_once 'src/GameController.php';
+require_once __DIR__.'/../src/GameController.php';
 
 $controller = new GameController();
 

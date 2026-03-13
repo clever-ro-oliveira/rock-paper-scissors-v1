@@ -1,5 +1,5 @@
 async function play(move) {
-  const response = await fetch("../api.php?action=play", {
+  const response = await fetch("api.php?action=play", {
     method: "POST",
     headers: {
       "Content-Type": "application/x-www-form-urlencoded",
@@ -16,14 +16,14 @@ async function play(move) {
 }
 
 async function loadScore() {
-  const response = await fetch("../api.php?action=score");
+  const response = await fetch("api.php?action=score");
   const score = await response.json();
 
   updateScore(score);
 }
 
 async function resetScore() {
-  const response = await fetch("../api.php?action=reset", {
+  const response = await fetch("api.php?action=reset", {
     method: "POST",
   });
 
