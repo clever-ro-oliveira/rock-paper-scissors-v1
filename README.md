@@ -25,8 +25,11 @@ Mini projeto desenvolvido em PHP puro para demonstrar:
 ## API Endpoints
 
 POST /api.php?action=play
+
 GET /api.php?action=score
+
 POST /api.php?action=reset
+
 
 ## Executar
 
