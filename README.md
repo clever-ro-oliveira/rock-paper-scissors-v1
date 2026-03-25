@@ -36,3 +36,6 @@ POST /api.php?action=reset
 ```bash
 php -S localhost:8000
 ```
+
+## Acesse
+http://rock-paper-scissors.cu.ma/public/
